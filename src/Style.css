@@ -1,0 +1,285 @@
+.header{
+    background-color: lightgray;
+    line-height: normal;
+    font-weight: 400;
+    
+}
+
+.ok1{
+    color: #1A2024;
+    font-size: 24px;
+    text-align: left;
+}
+
+.video video{
+    width: 25%;
+}
+
+.ok2{
+    color: #1A2024;
+    font-size: 24px;
+    text-align: left;
+}
+
+.card1{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card{
+    width: 320px;   
+    border-radius: 20px !important;
+}
+
+@media(max-width:500px){
+    .card{
+        width: 98vw !important;
+    }
+}
+
+@media(max-width:320px){
+    .navbar-nav{
+        margin-left: 300px;
+    }
+}
+
+
+
+@media(max-width:500px){
+    .text-center{
+        
+        margin-left: 5px !important;
+    }
+
+    .card{
+        width: 80% !important;
+    }
+}
+
+
+.card img{
+    border-radius: 20px 20px 0px 0px !important;
+
+}
+
+.playback{
+    display: flex !important;
+    flex: wrap 1;
+    justify-content: center !important;
+    align-items: center;
+    font-size: 14px;
+    background-color: #fcc50b;
+    border-radius: 10px;
+    position: relative;
+    top: -11px;
+    margin: auto;
+   
+}
+
+.amount1{
+    color: black !important;
+}
+
+
+.amount{
+    text-decoration: line-through;
+    font-size: 10px;
+    color: grey;
+}
+
+.amount2{
+    text-decoration: line-through;
+    font-size: 15px !important;
+    color: green !important;
+    text-decoration: none !important;
+    
+}
+
+.btn1{
+    display: flex;
+    flex: column;
+    float: right;
+    margin-top: -30px;
+}
+
+.ok3{
+    display: flex;
+    color: #1A2024;
+    font-size: 24px;
+    text-align: left;
+     
+}
+
+.scroll-container{
+    display: flex;
+    
+}
+
+.scroll-cards{
+    display: flex;
+}
+
+
+.staricon{
+    display: flex;
+    color: #fcc50b;
+}
+
+.ok6{
+    display:inline-flex !important;
+    flex-direction: row!important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+
+.ok7{
+    display: flex;
+    gap: 10%;
+}
+
+.hours{
+    position: relative;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fcc50b;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px 0px;
+   
+}
+
+.btn2{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    flex-direction: row-reverse;
+}
+
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 50px rgb(8, 8, 8);
+}
+
+.mycircle span{
+    height:20px;
+    width:20px;
+    background-color: red;
+    border-radius: 50%;
+    display:inline-block;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.mycircle p{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -70px;
+    margin-bottom: 50px;
+}
+.mycircle .two{
+position: absolute;
+right:10px;
+margin-right:32px;
+}
+    
+.dropdown-menu{
+    margin-left: -60px;
+}
+
+
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  @media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    
+    .bg-grey {
+    background-color: #eae8e8;
+    }
+    
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+    
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+  
+    .bg-grey{
+      background-color: #c2c4c7 !important;
+    }
+
+
+    
+
+
+
+
+
+
+
+
